@@ -5,6 +5,19 @@ import os
 import pathlib
 from time import time
 
+from Legendbot.core import pool
+from Legendbot.core.logger import logging
+from Legendbot.core.managers import eod, eor
+from Legendbot.helpers import progress, reply_id
+from Legendbot.helpers.functions import delete_conv
+from Legendbot.helpers.functions.utube import (
+    _mp3Dl,
+    get_yt_video_id,
+    get_ytthumb,
+    ytsearch,
+)
+from Legendbot.helpers.utils import _format
+from Legendbot.plugins import BOTLOG, BOTLOG_CHATID, legend
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import types
 from telethon.tl.functions.contacts import UnblockRequest as unblock
@@ -22,15 +35,6 @@ from yt_dlp.utils import (
     UnavailableVideoError,
     XAttrMetadataError,
 )
-
-from Legendbot.core import pool
-from Legendbot.core.logger import logging
-from Legendbot.core.managers import eod, eor
-from Legendbot.helpers import progress, reply_id
-from Legendbot.helpers.functions import delete_conv
-from Legendbot.helpers.functions.utube import _mp3Dl, get_yt_video_id, get_ytthumb, ytsearch
-from Legendbot.helpers.utils import _format
-from Legendbot.plugins import BOTLOG, BOTLOG_CHATID, legend
 
 BASE_YT_URL = "https://www.youtube.com/watch?v="
 extractor = URLExtract()

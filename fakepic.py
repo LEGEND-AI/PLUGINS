@@ -1,7 +1,6 @@
 import os
 
 import requests
-
 from Legendbot import legend
 
 menu_category = "useless"

@@ -3,9 +3,7 @@ from asyncio import sleep
 
 import requests
 from bs4 import BeautifulSoup
-
 from Legendbot import legend
-
 from Legendbot.Config import Config
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers import progress

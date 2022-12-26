@@ -1,9 +1,7 @@
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.plugins import reply_id
+from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 menu_category = "fun"
 

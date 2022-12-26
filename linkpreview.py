@@ -1,9 +1,7 @@
+from Legendbot import legend
+from Legendbot.core.managers import eor
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-
-from Legendbot import legend
-
-from Legendbot.core.managers import eor
 
 menu_category = "utils"
 

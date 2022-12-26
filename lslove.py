@@ -1,5 +1,4 @@
 from Legendbot import legend
-
 from Legendbot.plugins import mention
 
 menu_category = "fun"

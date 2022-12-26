@@ -5,9 +5,7 @@ import os
 import heroku3
 import requests
 import urllib3
-
 from Legendbot import legend
-
 from Legendbot.Config import Config
 from Legendbot.core.managers import eod, eor
 

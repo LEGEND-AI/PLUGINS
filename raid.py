@@ -1,13 +1,11 @@
 import asyncio
 import random
 
-from telethon.utils import get_display_name
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers.functions import age_verification
 from Legendbot.helpers.utils import reply_id
+from Legendbot.plugins import useless
 from Legendbot.sql_helper.globals import addgvar, gvarstatus
 from Legendbot.sql_helper.raid_sql import (
     raddai,
@@ -18,7 +16,7 @@ from Legendbot.sql_helper.raid_sql import (
     rremove_all_users,
     rremove_users,
 )
-from Legendbot.plugins import useless
+from telethon.utils import get_display_name
 
 menu_category = "fun"
 

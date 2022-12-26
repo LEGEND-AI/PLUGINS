@@ -1,5 +1,4 @@
 import pyfiglet
-
 from Legendbot.helpers.functions.utils import deEmojify
 from Legendbot.helpers.utils import _format
 from Legendbot.plugins import _format, eod, eor, legend

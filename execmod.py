@@ -1,5 +1,4 @@
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers.utils import _legendutils, parse_pre, yaml_format
 

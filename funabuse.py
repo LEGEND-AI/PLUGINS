@@ -1,7 +1,6 @@
 import random
 
 from Legendbot import legend
-
 from Legendbot.core.managers import eor
 
 menu_category = "extra"

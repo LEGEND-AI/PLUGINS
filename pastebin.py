@@ -3,20 +3,18 @@ import re
 
 import pygments
 import requests
-from pygments.formatters import ImageFormatter
-from pygments.lexers import Python3Lexer
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-from telethon.utils import get_extension
-from urlextract import URLExtract
-
 from Legendbot import legend
-
 from Legendbot.Config import Config
 from Legendbot.core.events import MessageEdited
 from Legendbot.core.logger import logging
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers.tools import media_type
 from Legendbot.helpers.utils import pastetext, reply_id
+from pygments.formatters import ImageFormatter
+from pygments.lexers import Python3Lexer
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+from telethon.utils import get_extension
+from urlextract import URLExtract
 
 menu_category = "utils"
 

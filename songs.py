@@ -6,6 +6,15 @@ import time
 
 import lyricsgenius
 import requests
+from Legendbot import legend
+from Legendbot.Config import Config
+from Legendbot.core.logger import logging
+from Legendbot.core.managers import eod, eor
+from Legendbot.helpers import progress
+from Legendbot.helpers.tools import media_type
+from Legendbot.helpers.utils import reply_id
+from Legendbot.helpers.yt_helper import *
+from Legendbot.plugins import mention
 from ShazamAPI import Shazam
 from telethon import types
 from telethon.tl.types import DocumentAttributeAudio
@@ -21,17 +30,6 @@ from yt_dlp.utils import (
     UnavailableVideoError,
     XAttrMetadataError,
 )
-
-from Legendbot import legend
-
-from Legendbot.Config import Config
-from Legendbot.core.logger import logging
-from Legendbot.core.managers import eod, eor
-from Legendbot.helpers import progress
-from Legendbot.helpers.tools import media_type
-from Legendbot.helpers.utils import reply_id
-from Legendbot.helpers.yt_helper import *
-from Legendbot.plugins import mention
 
 GENIUS = Config.GENIUS_API_TOKEN
 

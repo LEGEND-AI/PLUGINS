@@ -1,10 +1,9 @@
+from Legendbot import legend
+from Legendbot.core.managers import eod, eor
 from telegraph import Telegraph
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions
-
-from Legendbot import legend
-from Legendbot.core.managers import eod, eor
 
 telegraph = Telegraph()
 mee = telegraph.create_account(short_name="yohohehe")

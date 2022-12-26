@@ -1,14 +1,12 @@
 import asyncio
 
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-from telethon.tl.functions.contacts import UnblockRequest as unblock
-
 from Legendbot import BOTLOG, BOTLOG_CHATID, legend
-
 from Legendbot.core.logger import logging
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers.utils import _format, get_user_from_event, reply_id
 from Legendbot.sql_helper.global_collectionjson import add_collection, get_collection
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+from telethon.tl.functions.contacts import UnblockRequest as unblock
 
 LOGS = logging.getLogger(__name__)
 FBAN_GROUP_ID = Config.FBAN_GROUP_ID

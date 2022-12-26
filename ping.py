@@ -5,8 +5,8 @@ from datetime import datetime
 
 from Legendbot.core.managers import eor
 from Legendbot.helpers.functions import get_readable_time
-from Legendbot.sql_helper.globals import gvarstatus
 from Legendbot.plugins import StartTime, legend, mention
+from Legendbot.sql_helper.globals import gvarstatus
 
 menu_category = "tools"
 

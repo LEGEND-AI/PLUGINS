@@ -3,7 +3,6 @@
 import asyncio
 
 from Legendbot import legend
-
 from Legendbot.core.managers import eor
 from Legendbot.helpers.utils import _format
 from Legendbot.plugins import ALIVE_NAME

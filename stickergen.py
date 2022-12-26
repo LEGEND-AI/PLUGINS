@@ -5,7 +5,6 @@ import os
 import urllib
 
 from Legendbot import legend
-
 from Legendbot.helpers.functions import (
     clippy,
     convert_tosticker,

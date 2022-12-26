@@ -5,16 +5,14 @@ from io import BytesIO
 from random import choice, randint
 from textwrap import wrap
 
-from PIL import Image, ImageDraw, ImageFont
-from requests import get
-from telethon.utils import get_display_name
-
 from Legendbot import legend
-
 from Legendbot.Config import Config
 from Legendbot.core.managers import eor
 from Legendbot.helpers.utils import get_user_from_event, reply_id
 from Legendbot.plugins import ALIVE_NAME, mention
+from PIL import Image, ImageDraw, ImageFont
+from requests import get
+from telethon.utils import get_display_name
 
 menu_category = "extra"
 

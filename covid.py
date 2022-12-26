@@ -1,7 +1,7 @@
 # corona virus stats for LegendUserBot
-from covid import Covid
-
 from Legendbot.plugins import covidindia, eod, eor, legend
+
+from covid import Covid
 
 menu_category = "extra"
 

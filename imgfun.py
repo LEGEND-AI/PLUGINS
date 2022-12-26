@@ -4,16 +4,14 @@ import os
 from io import BytesIO
 
 import requests
-from PIL import Image, ImageFilter, ImageOps
-from telegraph import upload_file
-from telethon.tl.types import MessageMediaPhoto
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers import media_type
 from Legendbot.helpers.functions import dotify
 from Legendbot.helpers.utils import _legendtools
+from PIL import Image, ImageFilter, ImageOps
+from telegraph import upload_file
+from telethon.tl.types import MessageMediaPhoto
 
 menu_category = "fun"
 

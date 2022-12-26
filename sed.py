@@ -2,11 +2,10 @@ import re
 from collections import defaultdict, deque
 
 import regex
-from telethon import events
-from telethon.tl import functions, types
-
 from Legendbot.Config import Config
 from Legendbot.core.session import legend
+from telethon import events
+from telethon.tl import functions, types
 
 menu_category = "tools"
 

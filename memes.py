@@ -8,15 +8,13 @@ import re
 
 import requests
 from cowpy import cow
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import ChannelParticipantsAdmins, MessageEntityMentionName
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers import swtmemes
 from Legendbot.helpers.utils import _legendutils, parse_pre
 from Legendbot.plugins import BOTLOG, BOTLOG_CHATID, mention
+from telethon.tl.functions.users import GetFullUserRequest
+from telethon.tl.types import ChannelParticipantsAdmins, MessageEntityMentionName
 
 menu_category = "fun"
 

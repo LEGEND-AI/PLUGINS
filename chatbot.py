@@ -1,9 +1,6 @@
 import random
 
-from telethon.utils import get_display_name
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers import get_user_from_event, rs_client
 from Legendbot.sql_helper.chatbot_sql import (
@@ -16,6 +13,7 @@ from Legendbot.sql_helper.chatbot_sql import (
     remove_users,
 )
 from Legendbot.sql_helper.globals import gvarstatus
+from telethon.utils import get_display_name
 
 menu_category = "fun"
 

@@ -6,7 +6,6 @@ from subprocess import PIPE
 from subprocess import run as runapp
 
 from Legendbot import legend
-
 from Legendbot.Config import Config
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers import progress

@@ -1,10 +1,9 @@
-from telethon import events
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-
 from Legendbot.helpers.functions import age_verification
 from Legendbot.helpers.nsfw import unsave_gif
 from Legendbot.helpers.utils import reply_id
 from Legendbot.plugins import legend, useless
+from telethon import events
+from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 menu_category = "useless"
 

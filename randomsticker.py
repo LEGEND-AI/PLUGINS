@@ -4,11 +4,9 @@ from random import choice
 from urllib import parse
 
 import requests
-from telethon import functions, types, utils
-
 from Legendbot import legend
-
 from Legendbot.helpers import reply_id
+from telethon import functions, types, utils
 
 menu_category = "extra"
 

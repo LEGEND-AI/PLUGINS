@@ -9,9 +9,7 @@ import os
 import urllib
 
 import requests
-
 from Legendbot import legend
-
 from Legendbot.helpers.functions import age_verification
 from Legendbot.plugins import eod, eor, reply_id, useless
 

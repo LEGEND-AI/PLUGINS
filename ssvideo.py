@@ -2,10 +2,9 @@ import asyncio
 import os
 import time
 
-from telethon.tl.types import DocumentAttributeFilename
-
 from Legendbot.helpers import progress
 from Legendbot.plugins import legend
+from telethon.tl.types import DocumentAttributeFilename
 
 menu_category = "utils"
 

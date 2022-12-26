@@ -4,7 +4,6 @@ import subprocess
 from datetime import datetime
 
 from gtts import gTTS
-
 from Legendbot import legend
 from Legendbot.Config import Config
 

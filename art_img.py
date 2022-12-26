@@ -6,11 +6,10 @@ You remove this, you gay.
 """
 import os
 
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers.functions import clippy
 from Legendbot.plugins import _legendtools, convert_toimage, legend, mention, reply_id
+from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 menu_category = "extra"
 

@@ -1,9 +1,7 @@
 import os
 
 import requests
-
 from Legendbot import legend
-
 from Legendbot.Config import Config
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers.utils import reply_id

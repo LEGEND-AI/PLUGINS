@@ -3,13 +3,18 @@
 
 import os
 
-from telegraph import exceptions, upload_file
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eor
 from Legendbot.helpers.utils import _legendtools, reply_id
-from Legendbot.plugins import convert_toimage, deEmojify, phcomment, threats, trap, trash
+from Legendbot.plugins import (
+    convert_toimage,
+    deEmojify,
+    phcomment,
+    threats,
+    trap,
+    trash,
+)
+from telegraph import exceptions, upload_file
 
 menu_category = "fun"
 

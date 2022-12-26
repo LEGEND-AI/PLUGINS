@@ -2,15 +2,13 @@
 
 import os
 
-from telegraph import exceptions, upload_file
-from telethon import events
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-
 from Legendbot import legend
-
 from Legendbot.Config import Config
 from Legendbot.core.managers import eor
 from Legendbot.plugins import awooify, baguette, convert_toimage, iphonex, lolice
+from telegraph import exceptions, upload_file
+from telethon import events
+from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 menu_category = "extra"
 

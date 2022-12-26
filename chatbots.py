@@ -3,11 +3,9 @@ import json
 
 # credit To LegendBoy
 import requests
-from telethon.utils import get_display_name
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
+from Legendbot.plugins import get_user_from_event
 from Legendbot.sql_helper.schatbot_sql import (
     saddecho,
     sget_all_echos,
@@ -17,7 +15,7 @@ from Legendbot.sql_helper.schatbot_sql import (
     sremove_echo,
     sremove_echos,
 )
-from Legendbot.plugins import get_user_from_event
+from telethon.utils import get_display_name
 
 menu_category = "fun"
 

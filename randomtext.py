@@ -3,7 +3,6 @@ import random
 from asyncio import sleep
 
 from Legendbot import legend
-
 from Legendbot.core.managers import eor
 from Legendbot.plugins import mention
 

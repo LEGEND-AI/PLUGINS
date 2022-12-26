@@ -3,9 +3,7 @@ import json
 import random
 
 import requests
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers.utils import reply_id
 

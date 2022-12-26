@@ -1,5 +1,4 @@
 from faker import Faker
-
 from Legendbot.plugins import eor, legend
 
 menu_category = "useless"

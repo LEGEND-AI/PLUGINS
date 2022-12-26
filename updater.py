@@ -9,9 +9,7 @@ import requests
 import urllib3
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
-
 from Legendbot import HEROKU_APP, UPSTREAM_REPO_URL, legend
-
 from Legendbot.Config import Config
 from Legendbot.core.logger import logging
 from Legendbot.core.managers import eod, eor

@@ -1,14 +1,12 @@
+from Legendbot import legend
+from Legendbot.core.logger import logging
+from Legendbot.core.managers import eod, eor
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
 from telethon.tl.functions.phone import CreateGroupCallRequest as startvc
 from telethon.tl.functions.phone import DiscardGroupCallRequest as stopvc
 from telethon.tl.functions.phone import EditGroupCallTitleRequest as settitle
 from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc
-
-from Legendbot import legend
-
-from Legendbot.core.logger import logging
-from Legendbot.core.managers import eod, eor
 
 LOGS = logging.getLogger(__name__)
 

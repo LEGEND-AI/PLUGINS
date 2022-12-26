@@ -1,8 +1,7 @@
 import os
 
-from PIL import Image
-
 from Legendbot.plugins import eor, legend
+from PIL import Image
 
 menu_category = "fun"
 

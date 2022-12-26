@@ -4,8 +4,8 @@ import random
 from Legendbot.core.managers import eor
 from Legendbot.helpers.functions import age_verification
 from Legendbot.helpers.utils import reply_id
-from Legendbot.sql_helper.globals import addgvar, gvarstatus
 from Legendbot.plugins import legend, swtmemes, useless
+from Legendbot.sql_helper.globals import addgvar, gvarstatus
 
 menu_category = "extra"
 

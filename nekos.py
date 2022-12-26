@@ -5,15 +5,15 @@ Plugin Made by [NIKITA](https://t.me/kirito6969)
 
 import os
 
-import nekos
 import requests
 from fake_useragent import UserAgent
-from PIL import Image
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers.functions import age_verification
 from Legendbot.helpers.utils import _legendutils, reply_id
 from Legendbot.plugins import legend, useless
+from PIL import Image
+
+import nekos
 
 menu_category = "useless"
 

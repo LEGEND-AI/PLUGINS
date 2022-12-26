@@ -1,8 +1,7 @@
-import nekos
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eor
+
+import nekos
 
 menu_category = "fun"
 

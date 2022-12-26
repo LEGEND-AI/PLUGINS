@@ -10,19 +10,17 @@ import random
 import shutil
 from datetime import datetime
 
-from PIL import Image, ImageDraw, ImageFont
-from pySmartDL import SmartDL
-from telethon.tl import functions
-
 from Legendbot.core.logger import logging
 from Legendbot.core.managers import eor
-
-LOGS = logging.getLogger(__name__)
 from PIL import Image, ImageDraw, ImageFont
 from pySmartDL import SmartDL
 from telethon.tl import functions
 
+LOGS = logging.getLogger(__name__)
 from Legendbot.plugins import legend
+from PIL import Image, ImageDraw, ImageFont
+from pySmartDL import SmartDL
+from telethon.tl import functions
 
 menu_category = "tools"
 

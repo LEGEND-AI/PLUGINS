@@ -8,9 +8,7 @@ import subprocess
 from datetime import datetime
 
 from gtts import gTTS
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.plugins import deEmojify, reply_id
 

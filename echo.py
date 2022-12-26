@@ -2,11 +2,9 @@
 created by @LEGEND_K_BOY
 """
 
-from telethon.utils import get_display_name
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
+from Legendbot.plugins import get_user_from_event
 from Legendbot.sql_helper.echo_sql import (
     addecho,
     get_all_echos,
@@ -16,7 +14,7 @@ from Legendbot.sql_helper.echo_sql import (
     remove_echo,
     remove_echos,
 )
-from Legendbot.plugins import get_user_from_event
+from telethon.utils import get_display_name
 
 menu_category = "fun"
 

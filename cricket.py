@@ -3,9 +3,8 @@ Created by @Legend_K_Boy
 plugin for @LegendBot_OP
 """
 
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-
 from Legendbot.plugins import eor, legend, reply_id
+from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 menu_category = "extra"
 

@@ -3,7 +3,6 @@ Created by @Legend_K_Boy
 Userbot plugin for LegendUserBot
 """
 from Legendbot import legend
-
 from Legendbot.core.managers import eor
 from Legendbot.helpers import fonts as emojify
 

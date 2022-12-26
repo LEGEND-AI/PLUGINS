@@ -2,19 +2,19 @@ import asyncio
 import os
 import random
 
-import nekos
 import requests
 from bs4 import BeautifulSoup
-from pySmartDL import SmartDL
-from telethon.errors.rpcerrorlist import WebpageCurlFailedError
-from urlextract import URLExtract
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.core.session import legend
 from Legendbot.helpers.functions import age_verification
 from Legendbot.helpers.nsfw import unsave_gif
 from Legendbot.helpers.utils import _legendutils, reply_id
 from Legendbot.plugins import useless
+from pySmartDL import SmartDL
+from telethon.errors.rpcerrorlist import WebpageCurlFailedError
+from urlextract import URLExtract
+
+import nekos
 
 API = useless.API
 

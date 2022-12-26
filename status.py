@@ -1,12 +1,10 @@
 import os
 import urllib
 
-from telethon.tl import functions
-
 from Legendbot import legend
-
 from Legendbot.core.managers import eod, eor
 from Legendbot.sql_helper.globals import addgvar, gvarstatus
+from telethon.tl import functions
 
 menu_category = "utils"
 

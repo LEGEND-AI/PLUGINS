@@ -2,7 +2,6 @@
 import random
 
 from Legendbot import legend
-
 from Legendbot.core.logger import logging
 from Legendbot.core.managers import eod, eor
 from Legendbot.helpers import swtmemes

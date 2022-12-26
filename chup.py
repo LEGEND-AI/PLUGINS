@@ -1,6 +1,5 @@
-from telethon.tl.types import ChannelParticipantsAdmins
-
 from Legendbot import legend
+from telethon.tl.types import ChannelParticipantsAdmins
 
 menu_category = "fun"
 

@@ -6,9 +6,7 @@
 
 
 import requests
-
 from Legendbot import legend
-
 from Legendbot.core.logger import logging
 from Legendbot.core.managers import eod
 from Legendbot.helpers.functions import age_verification

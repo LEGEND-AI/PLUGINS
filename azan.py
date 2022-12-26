@@ -3,9 +3,8 @@
 import json
 
 import requests
-
-from Legendbot.sql_helper.globals import gvarstatus
 from Legendbot.plugins import eod, eor, legend
+from Legendbot.sql_helper.globals import gvarstatus
 
 menu_category = "extra"
 
