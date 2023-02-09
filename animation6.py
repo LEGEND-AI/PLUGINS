@@ -51,7 +51,6 @@ async def holi(event):
         "[❣️🎨ㅤ­](https://telegra.ph/file/d7d62ebbff4b5b092d4e0.jpg)",
     ]
     for i in animation_ttl:
-
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 8], link_preview=True)
 
@@ -112,7 +111,6 @@ async def cry(event):
     ]
 
     for i in animation_ttl:
-
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 35])
 
@@ -504,6 +502,5 @@ async def independence(event):
         "[нαρργ ιи∂ρєи∂єиϲє ∂αγ](https://t.me/Legend_Userbot)",
     ]
     for i in animation_ttl:  # By @The_LegendBoy LegendBot
-
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17], link_preview=True)

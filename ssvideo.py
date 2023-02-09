@@ -19,27 +19,21 @@ menu_category = "utils"
     },
 )
 async def ssvideo(event):
-
     if not event.reply_to_msg_id:
-
         return await event.edit("`reply to video!`")
 
     reply_message = await event.get_reply_message()
 
     if not reply_message.media:
-
         return await event.edit("`reply to a video!`")
 
     try:
-
         frame = int(event.pattern_match.group(1))
 
         if frame > 10:
-
             return await event.edit("`hey..dont put that much`")
 
     except BaseException:
-
         return await event.edit("`Please input number of frame!`")
 
     if (
@@ -53,7 +47,6 @@ async def ssvideo(event):
             in reply_message.media.document.attributes
         )
     ):
-
         return await event.edit("`Unsupported files!`")
 
     c_time = time.time()
@@ -69,7 +62,6 @@ async def ssvideo(event):
     )
 
     try:
-
         await event.edit("`Proccessing...`")
 
         command = f"vcsi -g {frame}x{frame} {ss} -o ss.png "
@@ -85,7 +77,6 @@ async def ssvideo(event):
         await event.delete()
 
     except BaseException as e:
-
         await event.edit(f"{e}")
 
     os.system("rm -rf *.png *.mp4")
