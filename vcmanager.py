@@ -1,12 +1,12 @@
 from telethon import functions
-from telethon.errors import ChatAdminRequiredError, UserAlreadyInvitedError
-from telethon.tl.types import Channel, Chat, User
+from telethon.errors import ChatAdminRequiredError
+from telethon.tl.types import User
 
 from .. import legend
-from ..core.managers import eod, eor
-from ..helpers.utils import mentionuser
+from ..core.managers import eod
 
 menu_category = "extra"
+
 
 async def chat_vc_checker(event, chat, edits=True):
     if isinstance(chat, User):
@@ -18,6 +18,7 @@ async def chat_vc_checker(event, chat, edits=True):
             await eod(event, "No Group Call in this chat")
         return None
     return result
+
 
 @legend.legend_cmd(
     pattern="vcstart",
@@ -45,4 +46,3 @@ async def start_vc(event):
         await eod(event, "Started Group Call")
     except ChatAdminRequiredError:
         await eod(event, "You should be chat admin to start vc", time=20)
-
