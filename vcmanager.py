@@ -8,6 +8,7 @@ from ..helpers.utils import mentionuser
 
 menu_category = "extra"
 
+
 async def get_group_call(chat):
     if isinstance(chat, Channel):
         result = await legend(functions.channels.GetFullChannelRequest(channel=chat))
@@ -32,6 +33,7 @@ async def parse_entity(entity):
     if entity.isnumeric():
         entity = int(entity)
     return await legend.get_entity(entity)
+
 
 @legend.legend_cmd(
     pattern="vcstart",
